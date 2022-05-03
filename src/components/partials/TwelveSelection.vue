@@ -1,6 +1,6 @@
 <template>
 
-    <div class="container d-flex justify-content-around align-items-center py-4">
+    <div class="container d-flex justify-content-around py-5">
 
       <div class=" ">
         <h5 class="text-uppercase fw-normal">featured</h5>
