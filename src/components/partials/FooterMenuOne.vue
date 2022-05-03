@@ -9,19 +9,19 @@
       <div class="text-white py-5">
         <ul class="m-0 p-0">
           <li>
-            <p>New York City</p>
+            <p>12345 North Main Street</p>
           </li>
           <li>
-            <p>New York City</p>
+            <p>New York, NY 555555</p>
           </li>
           <li>
-            <p>New York City</p>
+            <p>Phone:1.800.555.6789</p>
           </li>
           <li>
-            <p>New York City</p>
+            <p>Email:info@company.com</p>
           </li>
           <li>
-            <p>New York City</p>
+            <p>Web:Theme-fusion.com</p>
           </li>
         </ul>
       </div>

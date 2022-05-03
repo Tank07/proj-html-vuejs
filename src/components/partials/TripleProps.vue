@@ -2,8 +2,8 @@
   <div class="my-3 col-3">
       
       <img :src="`../../assets/${image}`" alt="" class="img-fluid">
-      <h5 class="text-white my-3">{{name}} </h5>
-      <h6>{{tags}}</h6>
+      <h5 class="my-3 font_small">{{name}} </h5>
+      <h6 class="font_smaller">{{tags}}</h6>
       <p>{{price}}</p>
     
   </div>
@@ -23,4 +23,14 @@ export default {
 
 
 <style scoped>
-</style>[
+
+.font_small{
+  font-size: 17px;
+}
+
+
+.font_smaller{
+  font-size: 13px;
+}
+
+</style>

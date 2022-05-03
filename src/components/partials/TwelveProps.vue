@@ -1,7 +1,7 @@
 <template>
   <div class="my-3">
 
-      <p class=" font_small">{{name}} </p>
+      <p class="font_small ">{{name}} </p>
       <p><i class="fa-star py-2" v-for="i in 5" :key="i" :class="(i <= `${stars}`) ? 'fa-solid' : 'd-none'" ></i></p>
       <p class="fw-bold">{{price}}</p>
       <p class="font_small">{{admin}}</p>
