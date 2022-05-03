@@ -6,10 +6,10 @@
   <TripleSelection/>
   <MainCollection/>
   <DividerDue/>
-  <h3 class="text-center">Manca slider</h3>
+  <SliderSmall/>
   <MainDoubleImage/>
   <DividerTre/>
-  <h3 class="text-center">Manca Slider</h3>
+  <SliderBig/>
   <MainPromotion/>
   <DividerQuattro/>
   <BlogImages/>
@@ -28,8 +28,10 @@ import DividerUno from './partials/DividerUno.vue'
 import TripleSelection from './partials/TripleSelection.vue'
 import MainCollection from './partials/MainCollection.vue'
 import DividerDue from './partials/DividerDue.vue'
+import SliderSmall from './partials/SliderSmall.vue'
 import MainDoubleImage from './partials/MainDoubleImage.vue'
 import DividerTre from './partials/DividerTre.vue'
+import SliderBig from './partials/SliderBig.vue'
 import MainPromotion from './partials/MainPromotion.vue'
 import DividerQuattro from './partials/DividerQuattro.vue'
 import BlogImages from './partials/BlogImages.vue'
@@ -44,8 +46,10 @@ export default {
     TripleSelection,
     MainCollection,
     DividerDue,
+    SliderSmall,
     MainDoubleImage,
     DividerTre,
+    SliderBig,
     MainPromotion,
     DividerQuattro,
     BlogImages,
