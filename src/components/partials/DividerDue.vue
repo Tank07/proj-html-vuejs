@@ -1,9 +1,9 @@
 <template>
 
-<div>
+<div class="my-5">
 
-    <div class="flex align-items-center justify-content-center"><hr><h2 class="text-uppercase">Best Seller</h2> <hr> </div>
-    <p class="text-center">Must have products from our top sellers</p>
+    <div class="flex align-items-center justify-content-center"><hr><h2 class="text-uppercase fw-bold px-4">Best Seller</h2> <hr> </div>
+    <p class="text-center text-muted">Must have products from our top sellers</p>
 
 
 </div>

@@ -1,16 +1,16 @@
 <template>
-  <div class="flex_bs">
+  <div class="d-flex justify-content-center align-items-center py-2">
  
-    <ul>
+    <ul class="d-flex m-0 p-0">
       <li v-for="(element, index) in menuSearch" :key='index'>
-        <a :href="`${element.url}`">{{element.name}}</a>
+        <a class="px-2 text-muted" :href="`${element.url}`">{{element.name}} <i class="fa-solid fa-angle-down text-muted fa-2xs"></i></a>
       </li>
       
     </ul>
 
-    <p><span>SHOP NOW!</span></p>
+    <p class="button_blue text-white ">SHOP NOW!</p>
 
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass px-3"></i>
 
   </div>
 </template>
@@ -30,7 +30,7 @@ export default {
           url: ''
         },
         {
-          name: 'Poducts',
+          name: 'Products',
           url: ''
         },
         {
@@ -54,8 +54,10 @@ export default {
 
 <style scoped >
 
-ul{
-  display: flex;
+.button_blue{
+  padding: 10px;
+  background-color: #427ed5;
+  border-radius: 20px;
 }
 
 </style>

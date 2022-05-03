@@ -1,11 +1,11 @@
 <template>
 
-<div class="flex_bs">
+<div class="d-flex">
 
-  <i class="fa-brands fa-facebook-f"></i>
-  <i class="fa-brands fa-twitter"></i>
-  <i class="fa-brands fa-instagram"></i>
-  <i class="fa-brands fa-youtube"></i>
+  <i class="fa-brands fa-facebook-f mx-2"></i>
+  <i class="fa-brands fa-twitter mx-2"></i>
+  <i class="fa-brands fa-instagram mx-2"></i>
+  <i class="fa-brands fa-youtube mx-2"></i>
 
 </div>
   
@@ -24,12 +24,6 @@ export default {
 
 
 <style scoped>
-
-.flex_bs{
-  
-  display: flex;
-
-}
 
 </style>
 

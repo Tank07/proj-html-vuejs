@@ -1,9 +1,10 @@
 <template>
-  <div class="my-3 col-3">
+  <div class="my-3">
 
-      <h5 class="my-3">{{name}} </h5>
-      <p><i class="fa-star" v-for="i in 5" :key="i" :class="(i <= `${stars}`) ? 'fa-solid' : 'd-none'" ></i></p>
-      <p>{{price}}</p>
+      <p class=" font_small">{{name}} </p>
+      <p><i class="fa-star py-2" v-for="i in 5" :key="i" :class="(i <= `${stars}`) ? 'fa-solid' : 'd-none'" ></i></p>
+      <p class="fw-bold">{{price}}</p>
+      <p class="font_small">{{admin}}</p>
 
       <div>
       <img :src="`../../assets/${image}`" alt="" class="img-fluid">
@@ -19,11 +20,21 @@ export default {
       image: String,
       name: String,
       stars: String,
-      price: String
+      price: String,
+      admin: String
    }
 }
 </script>
 
 
 <style scoped>
+
+.fa-star{
+  color: #427ed5;
+}
+
+.font_small{
+  font-size: 13px;
+}
+
 </style>[

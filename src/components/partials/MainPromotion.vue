@@ -6,13 +6,14 @@
 
     </div>
 
-    <div class="promotion text-center flex flex-column justify-content-center align-items-center">
+    <div class="promotion text-center flex flex-column justify-content-center align-items-center text-white">
 
         <img src="../../assets/man_testimonial.png" class="absol" alt="">
-        <p>Brand New Arrivals</p>
-        <p>dario pineda from new tyok</p>
+        <p class="padding_assai py-3 fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nisi perferendis quaerat in eaque alias velit eligendi laudantium exercitationem itaque dolor, deleniti deserunt fuga aspernatur modi obcaecati iste dicta aut!</p>
+        <p> <span class="fw-bold">Darìo Pineda</span>, Theme Fusion</p>
 
     </div>
+
     
 
 </div>
@@ -49,6 +50,10 @@ export default {
 .absol{
     position: absolute;
     top: -45px;
+}
+
+.padding_assai{
+    padding: 0 250px;
 }
 
 </style>

@@ -1,6 +1,6 @@
 <template>
 
-<div class="flex">
+<div class="d-flex container justify-content-between align-items-center">
 
   <SearchLogo/>
   <SearchMenu/>

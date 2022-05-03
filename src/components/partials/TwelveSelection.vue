@@ -1,9 +1,9 @@
 <template>
 
-    <div class="container d-flex justify-content-center align-items-center">
+    <div class="container d-flex justify-content-around align-items-center py-4">
 
-      <div class=" col-3">
-        <h4 class="text-uppercase">featured</h4>
+      <div class=" ">
+        <h5 class="text-uppercase fw-normal">featured</h5>
       <TwelveProps
       v-for="(element, index) in featuredPro"
       :key ="index"
@@ -14,8 +14,8 @@
       />
       </div>
 
-      <div class=" col-3">
-        <h4 class="text-uppercase">on sale</h4>
+      <div class=" ">
+        <h5 class="text-uppercase fw-normal">on sale</h5>
       <TwelveProps
       v-for="(element, index) in onSale"
       :key ="index"
@@ -27,8 +27,8 @@
 
       </div> 
 
-      <div class=" col-3">
-        <h4 class="text-uppercase">top rated</h4>
+      <div class=" ">
+        <h5 class="text-uppercase fw-normal">top rated</h5>
       <TwelveProps
       v-for="(element, index) in topRated"
       :key ="index"
@@ -40,15 +40,15 @@
 
       </div> 
 
-      <div class=" col-3">
-        <h4 class="text-uppercase">latest reviews</h4>
+      <div class="">
+        <h5 class="text-uppercase fw-normal">latest reviews</h5>
       <TwelveProps
       v-for="(element, index) in latestReviews"
       :key ="index"
       :image = "element.image"
       :name = "element.name"
       :stars = "element.stars"
-      :price = "element.price"
+      :admin = "element.admin"
       />
 
       </div> 
@@ -68,78 +68,78 @@ export default {
       return{
         featuredPro:[{
     "image": "black_elegant_leather_jacket-200x260.jpg",
-    "name": "Black Leather Jacket",
+    "name": "Black Jacket",
     "stars": "",
-    "price": "$200"
+    "price": "$125"
   },
   {
     "image":"black_leather_suit-200x260.jpg",
-    "name": "Modern blabla",
+    "name": "Black Leather Jacket",
     "stars": "5",
     "price": "$200"
   },
   {
     "image":"blue_jacket_and_white_stripe_tee-200x260.jpg",
-    "name": "Modern blabla",
+    "name": "Hipster Black Top",
     "stars": "",
-    "price": "$200"
+    "price": "$57"
   },
     ],
       onSale:[{
     "image":"modern_black_leather_suit-200x260.jpg",
-    "name": "Modern blabla",
+    "name": "Black Leather Jacket",
     "stars": "5",
     "price": "$200"
   },
   {
     "image": "black_elegant_leather_jacket-200x260.jpg",
-    "name": "Black Leather Jacket",
+    "name": "Blue Leather Jacket",
     "stars": "",
-    "price": "$200"
+    "price": "$80"
   },
   {
     "image":"modern_black_leather_suit-200x260.jpg",
-    "name": "Modern blabla",
+    "name": "Modern Leather Boots",
     "stars": "",
-    "price": "$200"
+    "price": "$30"
   },
   ],
       topRated:[{
     "image":"modern_black_leather_suit-200x260.jpg",
-    "name": "Modern blabla",
+    "name": "Leather Gloves",
+    "stars": "5",
+    "price": "$45"
+  },
+  {
+    "image":"modern_black_leather_suit-200x260.jpg",
+    "name": "Black Leather Jacket",
     "stars": "5",
     "price": "$200"
   },
   {
     "image":"modern_black_leather_suit-200x260.jpg",
-    "name": "Modern blabla",
+    "name": "Spring Printed Dress",
     "stars": "5",
-    "price": "$200"
-  },
-  {
-    "image":"modern_black_leather_suit-200x260.jpg",
-    "name": "Modern blabla",
-    "stars": "5",
-    "price": "$200"
+    "price": "$47"
   },
   ],
       latestReviews:[{
     "image":"modern_black_leather_suit-200x260.jpg",
-    "name": "Modern blabla",
+    "name": "Black Leather Jacket",
     "stars": "5",
-    "price": "$200"
+    "admin": "by admin"
   },
   {
     "image":"modern_black_leather_suit-200x260.jpg",
-    "name": "Modern blabla",
+    "name": "Leather Gloves",
     "stars": "5",
-    "price": "$200"
+    "admin": "by Beardman"
   },
   {
     "image":"modern_black_leather_suit-200x260.jpg",
-    "name": "Modern blabla",
+    "name": "Spring Printed Dress",
     "stars": "5",
-    "price": "$200"
+    "admin": "by admin"
   },  
 ]
     }

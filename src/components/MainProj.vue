@@ -15,6 +15,7 @@
   <BlogImages/>
   <hr>
   <TwelveSelection/>
+  <MainLogos/>
   
 </div>
     
@@ -33,6 +34,7 @@ import MainPromotion from './partials/MainPromotion.vue'
 import DividerQuattro from './partials/DividerQuattro.vue'
 import BlogImages from './partials/BlogImages.vue'
 import TwelveSelection from './partials/TwelveSelection.vue'
+import MainLogos from './partials/MainLogos.vue'
 
 export default {
   name: 'MainProj',
@@ -47,7 +49,8 @@ export default {
     MainPromotion,
     DividerQuattro,
     BlogImages,
-    TwelveSelection
+    TwelveSelection,
+    MainLogos
   }
 }
 </script>

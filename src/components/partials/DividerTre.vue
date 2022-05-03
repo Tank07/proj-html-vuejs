@@ -1,9 +1,9 @@
 <template>
 
-<div>
+<div class="my-5">
 
-    <div class="flex align-items-center justify-content-center"><hr><h2 class="text-uppercase">New Arrivals</h2> <hr> </div>
-    <p class="text-center">Brand new products from top designers</p>
+    <div class="flex align-items-center justify-content-center"><hr><h2 class="text-uppercase fw-bold px-4">New Arrivals</h2> <hr> </div>
+    <p class="text-center text-muted">Brand new products from top designers</p>
 
 
 </div>

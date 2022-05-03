@@ -1,6 +1,6 @@
 <template>
 
-<div class="flex">
+<div class=" container d-flex justify-content-between align-items-center">
 
   <HeaderSocials/>
   <HeaderCart/>

@@ -1,30 +1,30 @@
 <template>
 
 <div class="row no-gutters">
-    <div class=" col-4 winter text-center flex flex-column justify-content-end align-items-center">
+    <div class=" col-4 text-white winter text-center flex flex-column justify-content-end align-items-center">
 
         <h1>Winter Collection</h1>
-        <h4>RIch adn kfadakdka</h4>
+        <h6 class="fw-light text-uppercase">stylish and warm</h6>
         
-        <button type="button" class="btn btn-outline-secondary text-uppercase">view more</button>
+        <button type="button" class="btn btn-outline-secondary text-uppercase text-white rounded-pill border border-white my-4">view more</button>
         
     </div>
 
-    <div class="spring col-4 text-center flex flex-column justify-content-end align-items-center">
+    <div class="spring col-4 text-white text-center flex flex-column justify-content-end align-items-center">
 
         <h1>Winter Collection</h1>
-        <h4>RIch adn kfadakdka</h4>
+        <h6 class="fw-light text-uppercase">bright and colorful</h6>
         
-        <button type="button" class="btn btn-outline-secondary text-uppercase">view more</button>
+        <button type="button" class="btn btn-outline-secondary text-uppercase text-white rounded-pill border border-white my-4">view more</button>
         
     </div>
 
-    <div class="autumn col-4 text-center flex flex-column justify-content-end align-items-center">
+    <div class="autumn col-4 text-white text-center flex flex-column justify-content-end align-items-center">
 
         <h1>Winter Collection</h1>
-        <h4>RIch adn kfadakdka</h4>
+        <h6 class="fw-light text-uppercase">rich and comfortable</h6>
         
-        <button type="button" class="btn btn-outline-secondary text-uppercase">view more</button>
+        <button type="button" class="btn btn-outline-secondary text-uppercase text-white rounded-pill border border-white my-4">view more</button>
         
 
     </div>

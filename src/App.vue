@@ -1,10 +1,11 @@
 <template>
-  <div id="app" class="my-5">
+  <div id="app" class="">
     
     <HeaderProj/>
     <hr>
     <SearchBar/>
     <MainProj/>
+    <FooterProj/>
 
   </div>
 </template>
@@ -16,13 +17,15 @@ import "bootstrap"
 import HeaderProj from './components/HeaderProj.vue'
 import SearchBar from './components/SearchBar.vue'
 import MainProj from './components/MainProj.vue'
+import FooterProj from './components/FooterProj.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderProj,
     SearchBar,
-    MainProj
+    MainProj,
+    FooterProj
   }
 }
 </script>
@@ -36,6 +39,14 @@ ul {
 a {
     color: black;
     text-decoration: none;
+}
+
+hr{
+  margin: 0;
+}
+
+p{
+  margin: 0;
 }
 
 

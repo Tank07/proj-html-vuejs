@@ -1,9 +1,9 @@
 <template>
 
-<div>
+<div class="my-5">
 
-    <div class="flex align-items-center justify-content-center"><hr><h2 class="text-uppercase">From Our Blog</h2> <hr> </div>
-    <p class="text-center">The latest classic shop news</p>
+    <div class="flex align-items-center justify-content-center"><hr><h2 class="text-uppercase fw-bold px-4">From Our Blog</h2> <hr> </div>
+    <p class="text-center text-muted">The latest classic shop news</p>
 
 
 </div>
